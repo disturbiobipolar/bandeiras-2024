@@ -1,0 +1,136 @@
+.somalia {
+
+background-color:rgb(93, 109, 202);
+width: 550px;
+height: 300px;
+border-right: 150px;
+border-left: 200px;
+border-top: 400px;
+border-bottom: 400px;
+display: block;
+content: '';
+position:fixed;
+float: left;
+border-color: black;
+border-width: 2px;
+
+}
+
+
+.estrela {
+
+margin: 100px;
+position: relative;
+display: block;
+width: 0px;
+height: 0px;
+border-right: 100px solid transparent;
+border-bottom: 70px solid #ffffff;
+border-left: 100px solid transparent;
+transform: rotate(35deg);
+
+}
+
+.estrela::before {
+
+border-bottom: 80px solid #ffffff;
+border-left: 30px solid transparent;
+border-right: 30px solid transparent;
+position: absolute;
+height: 0;
+width: 0;
+top: -45px;
+left: -65px;
+display: block;
+content: '';
+transform: rotate(-35deg);
+
+}
+
+.estrela::after {
+
+position:absolute;
+display: block;
+top: 3px;
+left: -105px;
+width: 0px;
+height: 0px;
+border-right: 100px solid transparent;
+border-bottom: 70px solid #ffffff;
+border-left: 100px solid transparent;
+transform: rotate(-70deg);
+content: '';
+
+    
+
+}
+
+.estrela2 {
+
+    margin: 100px;
+    position: relative;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid yellow;
+    border-left: 100px solid transparent;
+    transform: rotate(35deg);
+       
+
+
+
+}
+ .vietna {
+
+    background-color:red;
+    width: 500px;
+    height: 300px;
+    border-right: 150px;
+    border-left: 200px;
+    border-top: 400px;
+    border-bottom: 400px;
+    display: block;
+    content: '';
+    position:relative;
+    float: right;
+    border-color: black;
+    border-width: 2px;
+
+ }
+
+
+.estrela2::before {
+
+    border-bottom: 80px solid yellow;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+
+}
+
+.estrela2::after {
+
+    position:absolute;
+    display: block;
+    top: 3px;
+    left: -105px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid yellow;
+    border-left: 100px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+
+}
+
+
+
